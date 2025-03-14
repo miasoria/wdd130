@@ -45,7 +45,7 @@ aside img{
 main img{
     width: 150px;
     height: auto;
-    ...
+    border-radius: 10px;
 }
 
 p { padding: 0;}
