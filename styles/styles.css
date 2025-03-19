@@ -45,7 +45,10 @@ aside img{
 main img{
     width: 150px;
     height: auto;
+<<<<<<< HEAD
     border-radius: 10px;
+=======
+>>>>>>> b38ca7319509489b95069c76aeead5c6a4b7f895
 }
 
 p { padding: 0;}
