@@ -1,0 +1,54 @@
+header {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    background-color: #3091e0;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-nav{
+    color: #000;
+    text-decoration-line: none;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+body{
+    height: 100vh;
+}
+
+#hero-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background:
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),url(../images/Rafting1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#title-hero-img{
+    font-family: "Anton", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 80px;
+    color: white;
+}
+
+main{
+    height: 70%;
+    background-color: red;
+}
