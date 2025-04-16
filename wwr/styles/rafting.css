@@ -374,3 +374,125 @@ button {
 button:hover {
     background-color: #1a2b3c;
 }
+
+.hero {
+    background-image: url('../images/heroimg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    text-align: center;
+    padding: 1rem;
+}
+
+.hero h1 {
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', sans-serif;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.cta-section {
+    background-color: #e0f7fa;
+    margin-top: 3rem;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta-section a {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #0288d1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-section a:hover {
+    background-color: #01679a;
+}
+
+.trip-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: white;
+}
+
+.trip-card {
+    background-color: #f1f8ff;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.trip-card:hover {
+    transform: scale(1.03);
+}
+
+.trip-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.trip-card h3 {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.trip-card p {
+    padding: 0 1rem 1rem;
+    font-size: 0.95rem;
+}
+
+.trip-table-section {
+    padding: 2rem;
+    background-color: #eaf7ff;
+}
+
+.trip-table-section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+th, td {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+thead {
+    background-color: #034d6d;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f4faff;
+}
